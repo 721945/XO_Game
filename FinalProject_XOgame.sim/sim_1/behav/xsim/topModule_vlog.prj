@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/horizontal_counter.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/vertical_counter.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/topModule.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

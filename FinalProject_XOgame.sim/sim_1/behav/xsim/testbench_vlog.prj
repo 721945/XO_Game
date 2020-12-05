@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/VGA_display.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/createSquare.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/createTable.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/text_test.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/topModule.v" \
+"../../../../FinalProject_XOgame.srcs/sources_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

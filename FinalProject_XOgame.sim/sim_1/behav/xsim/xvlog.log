@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/VGA_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_25mHz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module createCircleSign
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module createCrossSign
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createSquare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module createSquare
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createTable.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module createTable
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/text_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module text_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/topModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topModule
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
