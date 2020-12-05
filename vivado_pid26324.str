@@ -4913,3 +4913,6 @@ selectCodeEditor("createCircleSign.v", 401, 350); // bP (w, cs)
 // TclEventType: HW_SERVER_UPDATE
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 802 seconds
+dismissDialog("Close Hardware Target"); // n (cs)
+selectCodeEditor("createCircleSign.v", 414, 228); // bP (w, cs)
