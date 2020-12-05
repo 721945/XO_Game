@@ -38,8 +38,6 @@ module createTable(
     createCrossSign crossSign8(x,y,startX + 286, startY + 153 , cross8);
     createCrossSign crossSign9(x,y,startX + 286, startY + 286 , cross9);
     
-    
-    text_test text(x,y,233,187,d1);
     createCircleSign circleSign1(x,y,startX + 20, startY + 20 , circle1);
     createCircleSign circleSign2(x,y,startX + 20, startY + 153 , circle2);
     createCircleSign circleSign3(x,y,startX + 20, startY + 286 , circle3);

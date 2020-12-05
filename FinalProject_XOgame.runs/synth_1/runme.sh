@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.runs/synth_1'
+HD_PWD='C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

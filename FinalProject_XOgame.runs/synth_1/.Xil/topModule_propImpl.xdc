@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc rfile:../../../FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc rfile:../../../FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clock]
 set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]

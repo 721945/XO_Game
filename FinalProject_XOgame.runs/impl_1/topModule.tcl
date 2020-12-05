@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.runs/impl_1/topModule.tcl"
+  variable script "C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/impl_1/topModule.tcl"
   variable category "vivado_impl"
 }
 
@@ -122,7 +122,7 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
+  set_param chipscope.maxJobs 3
   set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tcpg236-1
@@ -130,15 +130,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.cache/wt [current_project]
-  set_property parent.project_path D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.xpr [current_project]
-  set_property ip_output_repo D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.cache/wt [current_project]
+  set_property parent.project_path C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.xpr [current_project]
+  set_property ip_output_repo C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.runs/synth_1/topModule.dcp
+  add_files -quiet C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/synth_1/topModule.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc
+  read_xdc C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/constrs_1/new/basys3Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

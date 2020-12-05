@@ -30,8 +30,17 @@ module createCircleSign(
     localparam center = 67;
     localparam size = 5;
     localparam radius = 27;
-    wire [15:0] pos_x = current_x - x;
-    wire [15:0] pos_y = current_y - y;
+    wire [15:0] pos_x = current_x - x - center + radius;
+    wire [15:0] pos_y = current_y - y - center + radius;
+    reg [15:0] pos_x_double;
+//    always @ *
+//    begin
+//    if(pos_x >= radius)
+//        pos_x_double = pos_x - radius;
+//    if((pos_x)**2 + (pos_y)**2 <= (radius)**2)
+        
+//    end
     
-    assign draw = (pos_x)**2 + (pos_y)**2 <= (radius)**2 ? 1:0;
+    assign draw =  ((pos_x-radius)**2 + (pos_y-radius)**2 <= (radius)**2 ? 1 : 0);
+//    assign draw = ((pos_x)**2 + (pos_y)**2 <= (radius)**2 ? 1:0) | ((pos_x-radius)**2 + (pos_y-radius)**2 <= (radius)**2 ? 1 : 0);
 endmodule

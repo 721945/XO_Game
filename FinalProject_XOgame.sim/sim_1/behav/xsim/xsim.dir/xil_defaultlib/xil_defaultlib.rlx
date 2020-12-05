@@ -1,18 +1,14 @@
 0.7
-2020.1.1
-Aug  5 2020
-23:19:43
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/VGA_display.v,1607175240,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v,,VGA_display,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/Xsign.v,1607185071,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v,,Xsign,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v,1607171555,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v,,clock_25mHz,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v,1607200830,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v,,createCircleSign,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v,1607198549,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createSquare.v,,createCrossSign,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createSquare.v,1607176717,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createTable.v,,createSquare,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/createTable.v,1607199771,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/text_test.v,,createTable,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/horizontal_counter.v,1607088189,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/topModule.v,,horizontal_counter,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/testbench.v,1607088205,verilog,,,,testbench,,,,,,,,
-,,,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/topModule.v,,text_test,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/topModule.v,1607191564,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/testbench.v,,topModule,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/vertical_counter.v,1607088949,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/testbench.v,,vertical_counter,,,,,,,,
-D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/x_Sign.v,1607193882,verilog,,D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.srcs/sources_1/new/testbench.v,,x_Sign,,,,,,,,
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.sim/sim_1/behav/xsim/glbl.v,1607201592,verilog,,,,glbl,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/VGA_display.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v,,VGA_display,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/clock_25mHz.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v,,clock_25mHz,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createCircleSign.v,1607204218,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v,,createCircleSign,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createCrossSign.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createSquare.v,,createCrossSign,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createSquare.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createTable.v,,createSquare,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/createTable.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/text_test.v,,createTable,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/testbench.v,1607201592,verilog,,,,testbench,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/text_test.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/topModule.v,,text_test,,,,,,,,
+C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/topModule.v,1607201592,verilog,,C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.srcs/sources_1/new/testbench.v,,topModule,,,,,,,,
