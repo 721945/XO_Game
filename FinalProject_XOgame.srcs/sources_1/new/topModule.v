@@ -2,6 +2,7 @@
 module topModule(
     input clock,
     input reset,
+    input btnC,btnL,btnR,btnT,btnB,
     output [3:0] VGA_red,
     output [3:0] VGA_green,
     output [3:0] VGA_blue,
@@ -19,7 +20,24 @@ module topModule(
     wire isX = 0;
     clock_25mHz clk25mHz(clock,reset,clk_25MHz);
     
-    
+    always@ (clock)
+    begin
+        if (btnC)
+        begin
+        end
+        else if (btnL)
+        begin
+        end
+        else if (btnR)
+        begin
+        end
+        else if (btnT)
+        begin
+        end
+        else if (btnB)
+        begin
+        end
+    end
     createTable table1(current_x,current_y,r,g,b);
 
     
