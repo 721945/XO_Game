@@ -1,10 +1,19 @@
 #-----------------------------------------------------------
+<<<<<<< HEAD
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
 # Start of session at: Sun Dec  6 05:47:08 2020
 # Process ID: 23084
 # Current directory: C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/synth_1
+=======
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun Dec  6 04:13:36 2020
+# Process ID: 13940
+# Current directory: D:/WORK/YEAR2/CPE223/Final/FinalProject_XOgame/FinalProject_XOgame.runs/synth_1
+>>>>>>> 222e23ea866a0da69e00b45956b89bb0d7fe4363
 # Command line: vivado.exe -log topModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topModule.tcl
 # Log file: C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/synth_1/topModule.vds
 # Journal file: C:/Users/nom_n/Desktop/XO_Game/FinalProject_XOgame.runs/synth_1\vivado.jou

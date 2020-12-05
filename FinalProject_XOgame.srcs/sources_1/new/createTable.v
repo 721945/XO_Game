@@ -27,6 +27,11 @@ module createTable(
     createSquare s7(x,y,startX + 286,startY + 20,2,400,c3);
     createSquare s8(x,y,startX + 419,startY + 20,2,402,c4);
     
+    wire rB1,rB2,rB3,rB4;
+    createSquare redBorder1(x,y,startX + 30,startY + 30,2,113+2,rB1);
+    createSquare redBorder2(x,y,startX + 30,startY + 30,113+2,2,rB2);
+    createSquare redBorder3(x,y,startX + 143,startY + 30,2,113+2,rB3);
+    createSquare redBorder4(x,y,startX + 30,startY + 143,113+2,2,rB4);
 //    createSquare xsign(x,y,startX + 20+40 , startY+20+40,57,57,isX);    
     createCrossSign crossSign1(x,y,startX + 20, startY + 20 , cross1);
     createCrossSign crossSign2(x,y,startX + 20, startY + 153 , cross2);
@@ -48,13 +53,16 @@ module createTable(
     createCircleSign circleSign8(x,y,startX + 286, startY + 153 , circle8);
     createCircleSign circleSign9(x,y,startX + 286, startY + 286 , circle9);
 //    x_Sign xsign1 (x , y,36,36,isX);
+
+    
     wire tables;
-    wire allCross,allCircle;
+    wire allCross,allCircle,allRedBorder;
     assign allCross = cross1 | cross2 | cross3 | cross4 | cross5 | cross6 | cross7 | cross8 | cross9;
     assign allCircle = circle1 | circle2 | circle3 | circle4 | circle5 | circle6 | circle7 | circle8 | circle9;
+    assign allRedBorder = rB1 | rB2 | rB3 | rB4;
     assign tables = r1 | r2 | r3 | r4 | c1 | c2 | c3 | c4;
-    assign r = {4{tables}} | {4{allCross}};
-    assign g = {4{tables}};
+    assign r = {4{tables}} | {4{allRedBorder}};
+    assign g = {4{tables}} | {4{allCross}};
     assign b = {4{tables}} | {4{allCircle}};
 
 endmodule
